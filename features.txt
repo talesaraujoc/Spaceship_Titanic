@@ -1,0 +1,16 @@
+PassengerId - Um ID exclusivo para cada passageiro. Cada Id assume a forma gggg_pp onde gggg indica um grupo com o qual o passageiro está viajando e pp é seu número dentro do grupo. As pessoas em um grupo geralmente são membros da família, mas nem sempre.
+HomePlanet - O planeta do qual o passageiro partiu, normalmente seu planeta de residência permanente.
+CryoSleep - Indica se o passageiro optou por ser colocado em animação suspensa durante a viagem. Passageiros em sono criogênico estão confinados em suas cabines.
+Cabin - O número da cabine onde o passageiro está hospedado. Assume a forma convés/num/lado, onde o lado pode ser P para bombordo ou S para estibordo.
+Destination - O planeta para o qual o passageiro desembarcará.
+Age - Idade do passageiro.
+VIP - Se o passageiro pagou pelo serviço VIP especial durante a viagem.
+RoomService, FoodCourt, ShoppingMall, Spa, VRDeck - Valor cobrado pelo passageiro em cada uma das muitas comodidades de luxo do Spaceship Titanic.
+Name - Primeiro e último nome do passageiro.
+Transported - Se o passageiro foi transportado para outra dimensão. Este é o alvo, a coluna que você está tentando prever.
+
+test.csv - Registros pessoais para o terço restante (~4300) dos passageiros, para serem usados ​​como dados de teste. Sua tarefa é prever o valor de Transportado para os passageiros neste conjunto.
+
+sample_submission.csv - A submission file in the correct format.
+PassengerId - Id for each passenger in the test set.
+Transported - The target. For each passenger, predict either True or False.
